@@ -8,11 +8,6 @@
     <!-- Bootstrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <div class="modal-header border-secondary">
-        <h5 class="modal-title" id="modalAatroxLabel">아트록스 (Aatrox) 상세 정보</h5>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div>
     <!-- 커스텀 스타일 (LOL 테마 + 챔피언 호버 효과) -->
     <style>
         body {
@@ -23,7 +18,6 @@
 
         .navbar {
             background-color: #000;
-
         }
 
         .hero {
@@ -65,67 +59,14 @@
             background-color: #800080;
         }
     </style>
-
-
 </head>
 
 <body>
 
     <!-- 헤더 (Navbar) -->
-    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">메인화면</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">뉴스</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.leagueoflegends.com/ko-kr/champions/">챔피온</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://download.kr.riotgames.com/league">다운로드</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"
-                            href="https://authenticate.riotgames.com/?client_id=prod-xsso-leagueoflegends&code_challenge=NjWSIgrZ6_AtB6UHPy5Dn1MQZcgJDW8ZV5yoxgToTnc&method=riot_identity&platform=web&redirect_uri=https%3A%2F%2Fauth.riotgames.com%2Fauthorize%3Fclient_id%3Dprod-xsso-leagueoflegends%26code_challenge%3DNjWSIgrZ6_AtB6UHPy5Dn1MQZcgJDW8ZV5yoxgToTnc%26code_challenge_method%3DS256%26locale%3Dko_KR%26redirect_uri%3Dhttps%253A%252F%252Fxsso.leagueoflegends.com%252Fredirect%26response_type%3Dcode%26scope%3Dopenid%2520account%2520email%2520offline_access%26state%3D8b025bb4fdcb243f08082c3fde%26uri%3Dhttps%253A%252F%252Fleagueoflegends.com%252Fko-kr&security_profile=low">로그인</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            외부사이트
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">LOL공식웹사이트</a></li>
-                            <li><a class="dropdown-item" href="#">LOL커뮤니티</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">외부웹</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">League of Legends</a>
+            <a class="navbar-brand" href="index_sample.html">League of Legends</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -136,11 +77,12 @@
                     <li class="nav-item"><a class="nav-link" href="#">챔피언</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">다운로드</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">로그인</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://www.naver.com/">외부웹사이트</a></li>
+                    <li class="nav-item"><a class="nav-link"
+                            href="https://www.flightradar24.com/37.46,126.44/13">외부웹사이트</a></li>
                 </ul>
             </div>
         </div>
-    </nav> -->
+    </nav>
 
     <!-- 히어로 배너 (Hero Banner) -->
     <section class="hero d-flex align-items-center justify-content-center text-center py-5">
@@ -157,31 +99,16 @@
         <p class="text-center mb-5">전투에 뛰어들기, 팀 지원, 또는 그 중간? 당신의 스타일을 선택하세요.</p>
         <div class="row g-4">
             <!-- Aatrox -->
-            <div class="col">
-                <div class="card bg-dark text-white border-secondary h-100">
-                    <img src="image/dragon.jpg" class="card-img-top" alt="아트록스">
-                    <div class="card-body">
-                        <h5 class="card-title">아트록스 (Aatrox)</h5>
-                        <p class="card-text small">역할: 전사 / 난이도: 상</p>
-                    </div>
-                    <div class="card-footer bg-transparent border-0">
-                        <button class="btn btn-outline-light w-100" data-bs-toggle="modal" data-bs-target="#modalAatrox"
-                            data-champ="Aatrox">
-                            상세 보기
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="col-md-6 col-lg-4 col-xl-2">
+            <div class="col-md-6 col-lg-4 col-xl-2">
                 <div class="card text-center h-100">
-                    <img src="image/dragon.jpg" class="card-img-top" alt="Aatrox" loading="lazy"> 
+                    <img src="https://ddragon.leagueoflegends.com/cdn/15.24.1/img/champion/Aatrox.png"
+                        class="card-img-top" alt="Aatrox" loading="lazy">
                     <div class="card-body">
                         <h5 class="card-title accent-red">Aatrox (탑)</h5>
                         <p class="card-text">어둠의 검으로 적을 베세요.</p>
                     </div>
                 </div>
-            </div> -->
-
+            </div>
             <!-- Sylas -->
             <div class="col-md-6 col-lg-4 col-xl-2">
                 <div class="card text-center h-100">
