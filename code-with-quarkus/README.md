@@ -49,4 +49,14 @@ css파일 추가하기
 <img src="../code-with-quarkus/gitImage/260401_2.JPG" width="45%" alt="실습 1 화면">
 <img src="../code-with-quarkus/gitImage/260401_3.JPG" width="45%" alt="실습 1 화면">
 </div>
+
+## 6주차 수업 내용
+스크립트 로컬 연동
+검색 구현하기
+
+
+<div align="center">
+<img src="../code-with-quarkus/gitImage/260408_1.JPG" width="45%" alt="실습 1 화면">
+
+</div>
 <br>
