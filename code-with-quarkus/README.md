@@ -68,4 +68,17 @@ The application can be packaged using:
 <img src="../code-with-quarkus/gitImage/260415_1.JPG" width="45%" alt="실습 1 화면">
 </div>
 
+## 9주차 수업 내용
+<br>다크모드, 화이트모드 구현
+<br>mysql 연결
+<br>데이터베이스 연동
+<br>테이블 정의 추가하기
+<br>테이블 데이터 삽입하기
+
+
+<div align="center">
+<img src="../code-with-quarkus/gitImage/260429_1.JPG" width="45%" alt="실습 1 화면">
+<img src="../code-with-quarkus/gitImage/260429_2.JPG" width="45%" alt="실습 2 화면">
+</div>
+
 

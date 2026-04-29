@@ -1,16 +1,15 @@
-package org.acme;
+package org.acme; // 패키지 선언
 
-import jakarta.ws.rs.GET;
+import jakarta.ws.rs.GET; // import문
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
-@Path("/hello")
-public class GreetingResource {
-
-    @GET
+@Path("/hello") // 어노테이션 : 클래스나 메서드에 부가 정보를 붙이는 문법. @ 기호로 시작
+public class GreetingResource { // 클래스 선언
+    @GET // 어노테이션
     @Produces(MediaType.TEXT_PLAIN)
-    public String hello() {
-        return "Hello from Quarkus REST";
+    public String hello() { // 메서드(객체 안에 함수) 선언
+        return "Hello from Quarkus REST"; // 리턴문
     }
 }
