@@ -81,4 +81,39 @@ The application can be packaged using:
 <img src="../code-with-quarkus/gitImage/260429_2.JPG" width="45%" alt="실습 2 화면">
 </div>
 
+## 10주차 수업 내용
+<br>메인화면 로그인 버튼 연결
+<br>Quarkus /login 엔드포인트, 로그인 페이지 작성, Quarkus /login_check 엔드포인트, 로그인 후 페이지 (로그아웃 버튼)
+<br>사용자 테이블 생성(User.java를 작성), 임시 사용자 데이터 삽입(DataSeeder.java에 추가)
+<br>세션 활성화 설정 추가(SessionConfig.java 파일을 작성)
+<br>DB 사용자 체크 (login_check 완성) / AuthResource.java를 수정
+
+
+## 11주차 수업 내용
+<br>회원가입 버튼 추가,  register 엔드포인트 등록(AuthResource.java를 수정)
+<br>회원가입 화면 작성하기(ogin 폴더의 register.html을 수정)
+<br>회원 테이블 수정하기
+<br>입력 값 유효성 검사(JS)
+<br>SHA-256 해시, 모달창
+<br>/register_check 엔드포인트
+<br>/register_success 엔드포인트
+
+## 12주차 수업 내용
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## 11주차 수업 내용
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
 
