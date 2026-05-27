@@ -1,4 +1,9 @@
 /* ── 기본 레이아웃 ──────────────────────────────────────────── */
+html {
+    font-size: 18px;
+    /* 기본 16 → 18 or 20 추천 */
+}
+
 body {
     background-color: #0a0e17;
     color: #fff;
@@ -14,6 +19,7 @@ body {
         url('../image/banner.jpg') center/cover no-repeat;
     min-height: 60vh;
 }
+
 
 
 
