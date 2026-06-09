@@ -99,11 +99,20 @@ The application can be packaged using:
 <br>/register_success 엔드포인트
 
 ## 12주차 수업 내용
-<br>
-<br>
-<br>
-<br>
-<br>
+<br>로그인 페이지 암호화 구현
+<br>guest 계정 패스워드 - 해시값으로 교체
+<br>메인화면 - 세션 체크
+<br>네비바에 프로필 링크 추가
+<br>/profile - 엔드포인트 등록
+<br>프로필 사진 컬럼 추가
+<br>프로필 페이지 화면 작성
+<br>/profile/info – 엔드포인트
+<br>/profile/upload – 엔드포인트
+<br>로그인 에러 처리
+<div align="center">
+<img src="../code-with-quarkus/gitImage/260609_1.JPG" width="45%" alt="실습 1 화면">
+<img src="../code-with-quarkus/gitImage/260609_2.JPG" width="45%" alt="실습 2 화면">
+</div>
 
 ## 11주차 수업 내용
 <br>
