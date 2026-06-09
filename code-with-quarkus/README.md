@@ -114,12 +114,19 @@ The application can be packaged using:
 <img src="../code-with-quarkus/gitImage/260609_2.JPG" width="45%" alt="실습 2 화면">
 </div>
 
-## 11주차 수업 내용
-<br>
-<br>
-<br>
-<br>
-<br>
+## 13주차 수업 내용
+<br>네비바의 사용자명 동적 표시
+<br>회원정보 수정 폼 추가 - 기존 값 자동 채움, 정규식 검사
+<br>회원정보 수정 - 엔드포인트, 결과 및 메시지
+<br>비밀번호 변경 폼 추가
+<br>비밀번호 유효성 검사 + 해시
+<br> 비밀번호 변경 – 엔드포인트(로그 아웃)
+<br>비밀번호 변경 – 성공 Toast 처리
+<div align="center">
+<img src="../code-with-quarkus/gitImage/260609_3.JPG" width="45%" alt="실습 1 화면">
+<img src="../code-with-quarkus/gitImage/260609_4.JPG" width="45%" alt="실습 2 화면">
+</div>
+
 
 
 
